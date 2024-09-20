@@ -1,4 +1,3 @@
-
 CREATE DATABASE Faculty;
 
 CREATE TABLE Students (
@@ -7,7 +6,7 @@ CREATE TABLE Students (
     lastname VARCHAR(70)
 );
 
-/*ALTER TABLE Students ADD gender INTEGER;
+ALTER TABLE Students ADD gender INTEGER;
 
 ALTER TABLE Students ALTER COLUMN gender SET DEFAULT 0;
 
@@ -23,4 +22,4 @@ DROP TABLE tasks;
 
 DROP TABLE Students;
 
-DROP DATABASE Faculty;*/
+DROP DATABASE Faculty;
