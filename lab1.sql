@@ -1,4 +1,3 @@
-
 CREATE DATABASE Faculty;
 
 CREATE TABLE Students (
