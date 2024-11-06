@@ -56,11 +56,8 @@ WHERE age IS NULL;
 
 -- 13. Write an SQL statement to increase the age of each student by 2. The statement should return name and updated age as update_age.
 UPDATE students
-SET age = age + 2;
-
--- Select the updated values to show the changes
-SELECT name, age AS update_age
-FROM students;
+SET age = age + 2
+RETURNING name, age AS update_age;
 
 -- 14. Remove all rows from the students table where age is under 20
 DELETE FROM students
